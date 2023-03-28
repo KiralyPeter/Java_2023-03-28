@@ -1,0 +1,19 @@
+public class CheckBoxExample extends JFrame{
+    
+    CheckBoxExample(){
+
+        super("CheckBox példa");
+        initComponents();
+
+    }
+
+    private void initComponents(){
+        
+        // alap ablak
+        this.setSize(300, 200);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setLayout(null); // ennek hatására lehet pozícionálni a komponenseket
+        this.setLocationRelativeTo(null);
+        
+    }
+}
