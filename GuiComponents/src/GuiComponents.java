@@ -11,10 +11,12 @@ public class GuiComponents {
         // ComboBoxExample cmbe = new ComboBoxExample();
         // cmbe.setVisible(true);
 
-        TextFieldExample tfe = new TextFieldExample();
-        tfe.setVisible(true);
+        // MenuExample miatt kikommentezve...
+        // TextFieldExample tfe = new TextFieldExample();
+        // tfe.setVisible(true);
 
-       
+       MenuExample mne = new MenuExample();
+       mne.setVisible(true);
 
     }
 }
