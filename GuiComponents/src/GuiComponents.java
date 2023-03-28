@@ -1,3 +1,5 @@
+import javax.swing.JTextField;
+
 public class GuiComponents {
     public static void main(String[] args) {
         
@@ -11,6 +13,8 @@ public class GuiComponents {
 
         TextFieldExample tfe = new TextFieldExample();
         tfe.setVisible(true);
+
+       
 
     }
 }
